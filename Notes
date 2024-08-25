@@ -1,0 +1,18 @@
+Multithreading : 
+Life Cycle of Thread:
+        new-> Active->Blocked/waiting->Timing Waiting->Terminiated
+      > When a thread invokes the start() method, it moves from the new state to the active state.
+      > active state contains two states : Runnable And Running
+How To Create Thread:
+Two Ways:
+1. Runnable Interface:
+     > only one method Run()
+     > can not use start method directly ,Need to create obj of thread class
+2. Thread Class:
+     > It has Start()
+     > Implements Runnable interface so it has run()
+     > directly use start()
+Joining Thread:
+> Join() provided by java.
+> method which allows one thread to wait until another thread completes its execution.
+>the current thread stops its execution and the thread goes into the wait state.
