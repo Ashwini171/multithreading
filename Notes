@@ -15,4 +15,4 @@ Two Ways:
 Joining Thread:
 > Join() provided by java.
 > method which allows one thread to wait until another thread completes its execution.
->the current thread stops its execution and the thread goes into the wait state.
+> the current thread stops its execution and the thread goes into the wait state.
